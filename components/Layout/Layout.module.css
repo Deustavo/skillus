@@ -1,0 +1,33 @@
+.topHeader {
+    padding: 1.5vh 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.pages {
+    display: flex;
+}
+
+.pageItem {
+    background-color: var(--primary-color);
+    padding: 7px;
+    margin: 0.5vw 0vw 0.5vw 0.5vw;
+
+    border-radius: 4px;
+    list-style-type:none;
+
+    box-shadow: 2px 2px 3px grey;
+}
+
+.pageItem:last-child {
+    background-color: var(--secondary-background-color);
+    color: var(--primary-color);
+    position: absolute;
+    right: 0.5vw;
+}
+
+.pageItem > i {
+    padding: 0px 5px 0px 0px;
+}
