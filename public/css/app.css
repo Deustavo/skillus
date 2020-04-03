@@ -20,6 +20,11 @@ ul {
     padding: 0;
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 input, select {
     background-color: var(--secondary-background-color);
     box-shadow: 0 0 0 0;

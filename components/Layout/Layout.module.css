@@ -14,7 +14,7 @@
     background-color: var(--primary-color);
     padding: 7px;
     margin: 0.5vw 0vw 0.5vw 0.5vw;
-
+    cursor: pointer;
     border-radius: 4px;
     list-style-type:none;
 

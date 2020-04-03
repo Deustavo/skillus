@@ -7,11 +7,13 @@ class Layout extends Component {
         return(
             <div className={style.header}>
                 <div className={style.topHeader}>
-                    <div className={style.logo}>SKILL.US</div>
+                    <div className={style.logo}>
+                        <a href="/home">SKILL.US</a>
+                    </div>
                     <i className="fas fa-user" />
                 </div>
                 <ul className={style.pages}>
-                    <ActiveLink href="/">
+                    <ActiveLink href="/home">
                         <li className={style.pageItem}>
                             <i className="fas fa-home" />
                             <span>Inicio</span>
@@ -23,7 +25,7 @@ class Layout extends Component {
                             <span>Ranking</span>
                         </li>
                     </ActiveLink>
-                    <ActiveLink href="/problemas">
+                    <ActiveLink href="/problens">
                         <li className={style.pageItem}>
                             <i className="fas fa-book" />
                             <span>Problemas</span>
