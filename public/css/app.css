@@ -19,3 +19,19 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+input, select {
+    background-color: var(--secondary-background-color);
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.selected {
+    background-color: var(--secondary-background-color);
+    color: var(--primary-color);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 0;
+    z-index: -1;
+}
