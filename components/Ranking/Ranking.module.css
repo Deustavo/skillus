@@ -1,8 +1,0 @@
-.page {
-    margin: 0vh 0.5%;
-    width: 99%;
-    height: 100%;
-    background-color: var(--secondary-background-color);
-    border-radius: 3px;
-    box-shadow: 2px 2px 3px grey;   
-}

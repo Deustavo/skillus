@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import Layout from "../components/Layout/Layout";
+import React, { Component } from 'react';
+import Topbar from '../components/Layout/Topbar';
 
-const Index = (Page) => {
+const Layout = Page => {
     return class extends Component {
         render() {
             return(
                 <div>
-                    <Layout />
+                    <Topbar />
                     <Page />
                 </div>
             );
         }
-    };
-};
+    }
+}
 
-export default Index;
+export default Layout;

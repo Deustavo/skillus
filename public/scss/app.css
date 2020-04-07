@@ -1,0 +1,34 @@
+:root {
+    /* Colors */
+    --primaryColor: #9612E2;
+    --secondaryColor: #780BB8;
+
+    --backgorundPrimaryColor: #F1F1F1;
+    --backgroundSecondaryColor: #E0E0E0;
+
+    --textPrimaryColor: #282828;
+
+    /* Fonts */
+    --fontTitleSize: 20px;
+
+    /* Border */
+    --radius: 5px;
+
+    /* Transition */
+    --transition: 200ms;
+}
+
+body, p {
+    margin: 0;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+.selected {
+    height: 45px !important;
+    border-bottom: 5px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+}
